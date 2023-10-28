@@ -19,7 +19,7 @@ function App() {
   })
   
   function onTaskFormSubmit(e) {
-    e.preventDefault
+    e.preventDefault()
      setSubmittedData(() => [...TASKS, formData])
      setFormData({
       text: "",
